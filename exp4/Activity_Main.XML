@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:padding="16dp">
+ <EditText
+ android:id="@+id/editTextName"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:hint="Name" />
+ <EditText
+ android:id="@+id/editTextRollNo"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:hint="Roll No"
+ android:layout_below="@id/editTextName"
+ android:layout_marginTop="16dp" />
+ <EditText
+ android:id="@+id/editTextMarks"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:hint="Marks"
+ android:layout_below="@id/editTextRollNo"
+ android:layout_marginTop="16dp" />
+ <EditText
+ android:id="@+id/editTextCollege"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:hint="College"
+ android:layout_below="@id/editTextMarks"
+ android:layout_marginTop="16dp" />
+ <EditText
+ android:id="@+id/editTextGender"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:hint="Gender"
+ android:layout_below="@id/editTextCollege"
+ android:layout_marginTop="16dp" />
+ <Button
+ android:id="@+id/buttonAdd"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Add Student"
+ android:layout_below="@id/editTextGender"
+ android:layout_marginTop="16dp"/>
+ <Button
+ android:id="@+id/buttonUpdate"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Update Student"
+ android:layout_below="@id/buttonAdd"
+ android:layout_marginTop="16dp"/>
+ <Button
+ android:id="@+id/buttonDelete"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Delete Student"
+ android:layout_below="@id/buttonUpdate"
+ android:layout_marginTop="16dp"/>
+ <Button
+ android:id="@+id/buttonView"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="View Students"
+ android:layout_below="@id/buttonDelete"
+ android:layout_marginTop="16dp"/>
+ <TextView
+ android:id="@+id/textViewFooter"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Done by Akash"
+ android:layout_alignParentBottom="true"
+ android:layout_marginTop="16dp"
+ android:layout_centerHorizontal="true"/>
+</RelativeLayout>
